@@ -1,9 +1,17 @@
 //Hello.cpp by Joe Sacco
-#include <cstdio>
+#include <iostream>
+#include <vector>
+#include <string>
+
 using namespace std;
 
 int main()
 {
-	puts("Hello World!");
-	return 0;
+    vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
+
+    for (const string& word : msg)
+    {
+        cout << word << " ";
+    }
+    cout << endl;
 }
