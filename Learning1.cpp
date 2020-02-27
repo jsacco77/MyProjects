@@ -1,4 +1,4 @@
-//Hello.cpp by Joe Sacco
+//Hello World program by Joe Sacco
 #include <iostream>
 #include <vector>
 #include <string>
